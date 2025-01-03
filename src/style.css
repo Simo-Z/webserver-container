@@ -1,0 +1,94 @@
+*,
+body,
+:after,
+:before {
+	box-sizing: border-box;
+	font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #eee;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: #111;
+}
+header,
+footer {
+	background: linear-gradient(45deg, #111, #222);
+	color: #fff;
+	padding: 1rem 4rem;
+	box-shadow: 0 0 100px 1px rgba(140, 17, 206, 0.1);
+}
+header h1 {
+	font-size: 1.5rem;
+}
+main {
+	display: flex;
+	flex: 1;
+	/* justify-content: center; */
+	align-items: center;
+	padding: 5rem 4rem;
+}
+#hero-container {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	max-width: 60vw;
+}
+.hero-title {
+	font-family: "Open Sans Display", "Segoe UI", system-ui, -apple-system,
+		sans-serif;
+	font-weight: 500;
+	font-size: 4.5rem;
+}
+.hero-text {
+	max-width: 50vw;
+	font-size: 1.1rem;
+	line-height: 1.5;
+}
+span {
+	color: rgb(178, 66, 238);
+}
+.button-container {
+	display: flex;
+	gap: 1.5rem;
+}
+button {
+	width: fit-content;
+	font-size: 1.1rem;
+	padding: 0.5rem 1rem;
+	background: linear-gradient(45deg, #ccc, #fff);
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: ouline 0.3s;
+}
+button.secondary {
+	background: none;
+	border-width: 1px;
+	border-style: solid;
+	border-image: linear-gradient(45deg, #333, #666) 1, 100%;
+	color: #ccc;
+}
+button:hover {
+	box-shadow: 0 0 5px 2px rgb(140, 17, 206);
+	color: rgb(140, 17, 206);
+}
+button.secondary:hover {
+	box-shadow: 0 0 5px 2px rgb(140, 17, 206);
+	color: white;
+}
+footer {
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+}
+.footer-title {
+	font-size: 1.2rem;
+}
+.footer-text {
+	font-size: 0.8rem;
+	color: #aaa;
+}
