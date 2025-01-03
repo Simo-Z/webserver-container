@@ -1,6 +1,6 @@
-# Webserver Container
+# Simple Web Server Container
 
-Trying to understand the basics of Docker and Docker Compose I containerized a static Nginx Webserver whihc provides a static HTML:
+Trying to understand the basics of Docker and Docker Compose I containerized a static Nginx Webserver which provides a static HTML:
 
 ![alt text](image.png)
 
